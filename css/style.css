@@ -2,3 +2,41 @@
   padding: 0;
   margin: 0;
 }
+.book-dynamic {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-left: 0.4rem;
+  height: 2rem;
+}
+
+.book-dynamic:nth-child(odd) {
+  background-color: rgb(217, 211, 211);
+ 
+}
+
+#display-books{
+  border: 1px solid gray;
+  width: 350px;
+}
+
+.remove-button{
+  width: 65px;
+  padding: 5px;
+  float: right;
+ cursor: pointer;
+ box-shadow: 3px 3px;
+ background-color: #fff;
+}
+.remove-btn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title-author{
+  width: 95%; 
+  float: left; 
+}
+
+
+
