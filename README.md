@@ -1,72 +1,58 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Project Name : AWESOME BOOK WEBSITE
 
 > Description the project.
-
+This project is a book website. It built in HTML, CSS and JavaScript and main functionalities are adding and removing books. The information is then retained in local storage.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
+- HTML AND CSS
+- JAVASCRIPT
+- Linters: 
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+## In order to have a copy of this project in your computer follow these steps:
+1) - Open your favourite git client
+git clone https://github.com/Piercel2022/awesome-books.git
 
+2) - To access cloned directory run:
+cd awesome-books
 
-To get a local copy up and running follow these simple example steps.
+3) - Open the directory in Vscode 
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
+## In order to access this website on line:
+ https://piercel2022.github.io/awesome-books/
+    
 ## Authors
 
-👤 **Author1**
+👤 **Ernest Lasten**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Lasten-Ernest](https://github.com/Lasten-Ernest)
+- Twitter: [@ErnestLasten](https://twitter.com/ErnestLasten)
+- LinkedIn: [ernestlasten](https://mw.linkedin.com/in/ernest-lasten-613990197)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Pierre C**
+-GitHub https://github.com/Piercel2022
+- Twitter https://twitter.com/pier_celestin
+- LinkedIn https://www.linkedin.com/in/piercelestinmax/
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
+Feel free to check the https://github.com/Piercel2022/awesome-books/issues
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
+
 
 ## 📝 License
 

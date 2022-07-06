@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Awesome Books</title>
+  </head>
+
+  <body>
+    <section>
+      <p class="date"></p>
+      <div class="section-1 marg-bottom" id="list">
+        <h1 class="h2-size header-book">Awesome Books</h1>
+        <div id="display-books">
+        </div>
+      </div>
+    <div class="form-div-center hide marg-bottom" id="add-book">
+      <form class="form-book">
+        <h4 class="h2-size">Add A New Book</h4>
+        <input
+          type="text"
+          placeholder="Title"
+          id="title"
+        /><br /><br />
+        <input
+          type="text"
+          placeholder="Author"
+          id="author"
+        /><br /><br />
+        <button type="submit" id ="add-button">Add Book</button>
+      </form>
+    </div>
+    </section>
+    <script src="./script/addRemoveBooks.js" defer></script>
+  </body>
+</html>
