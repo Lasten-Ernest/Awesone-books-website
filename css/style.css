@@ -1,94 +1,146 @@
-*,
-*::before,
-*::after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
+.border-class {
+  border: 3px solid #000;
+  margin: 20px;
 }
 
-html {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Comic Neue', 'Courier New', Courier, monospace;
-  background-color: rgb(255, 255, 255);
-  min-height: 100vh;
-  margin: 0;
-}
-
-.caption {
-  font-weight: bold;
-  text-align: center;
-}
-
-.form {
+nav {
   display: flex;
-  flex-direction: column;
   align-items: center;
-}
-
-.book-list.active {
-  border: 2px solid black;
-  width: 95%;
-  height: 100%;
-}
-
-.book-data {
-  display: flex;
   justify-content: space-between;
 }
 
-.add-container {
+nav a {
+  font-size: 36px;
+  margin: 0 20px;
+  text-decoration: none;
+  color: #000;
+}
+
+.book-ul {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 50px;
+  justify-content: flex-end;
 }
 
-.add-container::before {
-  content: '';
-  border-top: 2px solid black;
-  width: 58%;
-  display: flex;
-}
-
-.title,
-.author {
-  border: 2px solid black;
-  width: 250px;
-  height: 30px;
-}
-
-.author {
-  margin-top: -25px;
-}
-
-.title::placeholder,
-.author::placeholder {
-  color: black;
-  font-family: 'Comic Neue', 'Courier New', Courier, monospace;
-  font-weight: bold;
-}
-
-.error-msg.active2 {
-  font-size: 14px;
-  color: red;
-  text-align: center;
-  position: relative;
-  top: -28px;
-}
-
-.add-book {
+.book-ul li {
+  padding-right: 10px;
+  list-style: none;
+  border-right: 2px solid #000;
+  line-height: 2.5;
   cursor: pointer;
-  width: 39px;
-  border: 2px solid black;
-  font-weight: bold;
-  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 1);
-  position: relative;
-  left: 100px;
-  margin-top: -25px;
+}
+
+.book-ul li:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+
+.book-ul li a {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+#book-div {
+  margin: 0 20px;
+  border: 3px solid;
+}
+
+.book-dynamic {
+  display: flex;
+  align-items: center;
+  height: 2rem;
+  padding: 0.4rem 0.8rem;
+}
+
+.book-dynamic:nth-child(odd) {
+  background-color: #ccc;
+}
+
+.title-author {
+  width: 95%;
+  float: left;
+}
+
+.remove-button {
+  width: 70px;
+  float: right;
+  padding: 5px;
+  box-shadow: 3px 3px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+#title {
+  width: 250px;
+  padding: 5px;
+  border: 2.5px solid;
+}
+
+#author {
+  width: 250px;
+  padding: 5px;
+  border: 2.5px solid;
+}
+
+.form-div-center {
+  display: block;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.header-book {
+  margin-top: 60px;
+}
+
+#add-button {
+  width: 70px;
+  padding: 2.5px;
+  box-shadow: 3px 3px;
+  background-color: #fff;
+  margin-left: 185px;
+  cursor: pointer;
+}
+
+.header-title {
+  text-align: center;
+}
+
+.contact-info {
+  width: 40%;
+  text-align: center;
+  margin: 60px auto;
+}
+
+.h2-size {
+  font-size: 36px;
+  text-align: center;
+}
+
+.contact-info ul {
+  text-align: left;
+  margin-left: 10px;
+}
+
+footer {
+  padding-left: 20px;
+  font-size: 26px;
+}
+
+.active {
+  color: rgb(56, 110, 180);
+  border-bottom: 2px solid rgb(56, 110, 180);
+}
+
+.hide {
+  display: none;
+}
+
+.marg-bottom {
+  margin-bottom: 140px;
+}
+
+.date {
+  display: block;
+  text-align: right;
+  margin-right: 20px;
+  font-size: 18px;
 }
