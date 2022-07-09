@@ -1,4 +1,94 @@
-* {
-  padding: 0;
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Comic Neue', 'Courier New', Courier, monospace;
+  background-color: rgb(255, 255, 255);
+  min-height: 100vh;
+  margin: 0;
+}
+
+.caption {
+  font-weight: bold;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.book-list.active {
+  border: 2px solid black;
+  width: 95%;
+  height: 100%;
+}
+
+.book-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.add-container::before {
+  content: '';
+  border-top: 2px solid black;
+  width: 58%;
+  display: flex;
+}
+
+.title,
+.author {
+  border: 2px solid black;
+  width: 250px;
+  height: 30px;
+}
+
+.author {
+  margin-top: -25px;
+}
+
+.title::placeholder,
+.author::placeholder {
+  color: black;
+  font-family: 'Comic Neue', 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+.error-msg.active2 {
+  font-size: 14px;
+  color: red;
+  text-align: center;
+  position: relative;
+  top: -28px;
+}
+
+.add-book {
+  cursor: pointer;
+  width: 39px;
+  border: 2px solid black;
+  font-weight: bold;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 1);
+  position: relative;
+  left: 100px;
+  margin-top: -25px;
 }
