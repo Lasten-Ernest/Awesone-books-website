@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ar" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="/css/style.css" type="text/css" rel="stylesheet"/>
+    <title>Awesome Books Website</title>
+  </head>
+  <body>
+    <section>
+      <h1 class="caption">All Awesome books</h1>
+      <form class="form">
+        <div class="book-list"></div>
+        <div class="add-container">
+          <h2 class="caption2">Add a new book</h2>
+          <input type="text" placeholder="Title" value="" class="title" required/><br/><br/>
+          <input type="text" placeholder="Author" value="" class="author" required/><br/><br/>
+          <small class="error-msg"></small>
+          <button type="submit" class="add-book">Add</button>
+        </div>
+      </form>
+    </section>
+    <script src="/script/addRemoveBooks.js"></script>
+  </body>
+</html>
