@@ -103,5 +103,5 @@ addButton.addEventListener('submit', (e) => {
     errorMsg.innerText = 'Enter name of book and author.';
     errorMsg.classList.add('active2');
   }
-  window.location.reload()
+  window.location.reload();
 });
