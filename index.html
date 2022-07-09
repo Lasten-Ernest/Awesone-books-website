@@ -1,25 +1,52 @@
 <!DOCTYPE html>
-<html lang="ar" dir="ltr">
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="/css/style.css" type="text/css" rel="stylesheet"/>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Awesome Books Website</title>
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
     <section>
-      <h1 class="caption">All Awesome books</h1>
-      <form class="form">
-        <div class="book-list"></div>
-        <div class="add-container">
-          <h2 class="caption2">Add a new book</h2>
-          <input type="text" placeholder="Title" value="" class="title" required/><br/><br/>
-          <input type="text" placeholder="Author" value="" class="author" required/><br/><br/>
-          <small class="error-msg"></small>
-          <button type="submit" class="add-book">Add</button>
+      <header class="border-class">
+        <nav>
+          <a href="#">Awesome Book</a>
+          <ul class="book-ul">
+            <li><a id="list-display" class="active">List</a></li>
+            <li><a  id="add-new-display">Add new</a></li>
+            <li><a  id="contact-display">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <p class="date"></p>
+      <section class="section-1 marg-bottom" id="list">
+        <h2 class="h2-size header-book">All Awesome Books</h2>
+        <div id="book-div">
         </div>
+      </section>
+    <div class="form-div-center hide marg-bottom" id="add-book">
+      <form class="form-book">
+        <h2 class="h2-size">Add A New Book</h2>
+        <input type="text" placeholder="Title" id="title" required /><br/><br/>
+        <input type="text" placeholder="Author" id="author" required/><br /><br />
+        <button id ="add-button">Add Book</button>
       </form>
+    </div>
+    <div class="contact-info hide marg-bottom" id="contact">
+      <h2 class="h2-size">Contact Information</h2>
+      <p>Do you have any questions or you just want to say "Hello"?</p>
+      <p>You can reach out to us!</p>
+      <ul>
+        <li>Our email: awesomebooks@gmail.com</li>
+        <li>Our phone number: +265 995 578 713</li>
+        <li>Our address: Hendreson street, Blantyre City, Malawi</li>
+      </ul>
+    </div>
+    <footer class="border-class ">
+      <p>&copy; Copyright</p>
+    </footer>
     </section>
-    <script src="/script/addRemoveBooks.js"></script>
+    <script src="./script/addRemoveBooks.js" defer></script>
   </body>
 </html>
